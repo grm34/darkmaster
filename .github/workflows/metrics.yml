@@ -146,7 +146,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Icons
-      - uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.topics.icons.svg
           token: NOT_NEEDED
