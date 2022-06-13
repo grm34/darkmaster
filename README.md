@@ -27,10 +27,10 @@
 </a>
 
 <a href="https://github.com/grm34">
-    <img align="center" width="49%" src="./lines-of-code.svg" />
+    <img align="center" width="49%" src="./calendar.svg" />
 </a>
 <a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./calendar.svg" />
+  <img align="center" width="49%" src="https://raw.githubusercontent.com/grm34/grm34/snake/darkmaster-snake-dark.svg" />
 </a>
 
 <a href="https://github.com/grm34">
