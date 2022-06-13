@@ -6,14 +6,7 @@
 </a>
 
 <a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./featured.svg" />
-</a>
-<a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./repositories.svg" />
-</a>
-
-<a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./activity.svg" />
+  <img align="center" width="49%" src="./habits.svg" />
 </a>
 <a href="https://github.com/grm34">
   <img align="center" width="49%" src="./achievements.svg" />
