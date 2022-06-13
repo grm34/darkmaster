@@ -159,10 +159,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Featured repositories
-      uses: lowlighter/metrics@latest
-      with:
-        filename: featured.repositories.svg
-        token: ${{ secrets.METRICS_TOKEN }}
-        base: ""
-        plugin_repositories: yes
-        plugin_repositories_featured: grm34/ZenMaxBuilder
+        uses: lowlighter/metrics@latest
+        with:
+          filename: featured.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_featured: grm34/ZenMaxBuilder
