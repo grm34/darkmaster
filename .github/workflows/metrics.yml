@@ -23,12 +23,12 @@ jobs:
           plugin_achievements_display: compact  # Use compact display
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
   
-  github-metrics:
+  darkmaster:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: header.svg
+          filename: darkmaster.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -51,12 +51,12 @@ jobs:
           base: "repositories"
           plugin_lines: yes
 
-  acti_comm:
+  activity:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: acti_comm.svg
+          filename: activity.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -68,12 +68,12 @@ jobs:
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-  iso_calender:
+  calendar:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: iso_calender.svg
+          filename: calendar.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -92,7 +92,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: github-habits.svg
+          filename: habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
@@ -105,12 +105,12 @@ jobs:
           plugin_habits_charts: yes     # Display charts section
           plugin_habits_trim: yes       # Trim unused hours on daily chart
 
-  issue_pr_lang:
+  overall:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: issue_pr_lang.svg
+          filename: overall.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -123,7 +123,6 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_followup: yes
           plugin_languages: yes
-
 
   repositories:
     runs-on: ubuntu-latest
@@ -142,20 +141,20 @@ jobs:
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-  starred_topics:
+  topics:
     runs-on: ubuntu-latest
     steps:
       - name: Icons
         uses: lowlighter/metrics@latest
         with:
-          filename: topics.icons.svg
+          filename: topics.svg
           token: NOT_NEEDED
           base: ""
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
 
-  featured_repositories:
+  featured:
     runs-on: ubuntu-latest
     steps:
       - name: Featured repositories
