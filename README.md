@@ -1,5 +1,5 @@
 <a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./header.svg" />
+  <img align="center" width="49%" src="./darkmaster.svg" />
 </a>
 <a href="https://github.com/grm34">
   <img align="center" width="49%" src="./featured.svg" />
@@ -16,25 +16,26 @@
   <img align="center" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=grm34&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true" />
 </a>
 <a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./acti_comm.svg" />
+  <img align="center" width="49%" src="./activity.svg" />
 </a>
 
 <a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./issue_pr_lang.svg" />
+  <img align="center" width="49%" src="./overall.svg" />
 </a>
 <a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./github-habits.svg" />
+  <img align="center" width="49%" src="./habits.svg" />
 </a>
 
 <a href="https://github.com/grm34">
     <img align="center" width="49%" src="./lines-of-code.svg" />
 </a>
 <a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./iso_calender.svg" />
+  <img align="center" width="49%" src="./calendar.svg" />
 </a>
+
 <a href="https://github.com/grm34">
     <img align="center" width="49%" src="./achievements.svg" />
 </a>
 <a href="https://github.com/grm34">
-  <img align="center" width="49%" src="./topics.icons.svg" />
+  <img align="center" width="49%" src="./topics.svg" />
 </a>
