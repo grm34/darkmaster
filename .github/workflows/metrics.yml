@@ -155,13 +155,13 @@ jobs:
           plugin_topics_limit: 0
           plugin_topics_mode: icons
 
-  featured_repo:
+  featured_repositories:
     runs-on: ubuntu-latest
     steps:
       - name: Featured repositories
       uses: lowlighter/metrics@latest
       with:
-        filename: featured.svg
+        filename: featured.repositories.svg
         token: ${{ secrets.METRICS_TOKEN }}
         base: ""
         plugin_repositories: yes
