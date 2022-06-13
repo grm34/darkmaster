@@ -148,10 +148,21 @@ jobs:
       - name: Icons
         uses: lowlighter/metrics@latest
         with:
-          filename: plugin.topics.icons.svg
+          filename: topics.icons.svg
           token: NOT_NEEDED
           base: ""
           plugin_topics: yes
-          plugin_topics_limit: 100
+          plugin_topics_limit: 0
           plugin_topics_mode: icons
 
+  featured_repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Featured repositories
+      uses: lowlighter/metrics@latest
+      with:
+        filename: featured.svg
+        token: ${{ secrets.METRICS_TOKEN }}
+        base: ""
+        plugin_repositories: yes
+        plugin_repositories_featured: grm34/ZenMaxBuilder
