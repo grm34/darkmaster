@@ -22,7 +22,7 @@ jobs:
           plugin_achievements_secrets: yes      # Display unlocked secrets achievements
           plugin_achievements_display: compact  # Use compact display
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
-
+  
   github-metrics:
     runs-on: ubuntu-latest
     steps:
@@ -39,6 +39,7 @@ jobs:
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+
   lines:
     runs-on: ubuntu-latest
     steps:
@@ -140,3 +141,17 @@ jobs:
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+
+  starred_topics:
+    runs-on: ubuntu-latest
+    steps:
+      name: Icons
+      uses: lowlighter/metrics@latest
+      with:
+        filename: metrics.plugin.topics.icons.svg
+        token: ${{ secrets.METRICS_TOKEN }}
+        base: ""
+        plugin_topics: yes
+        plugin_topics_limit: 0
+        plugin_topics_mode: icons
+
