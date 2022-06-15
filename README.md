@@ -6,5 +6,8 @@
 </a>
 
 <a href="https://github.com/grm34">
-  <img align="center" width="99%" src="./achievements.svg" />
+  <img align="center" width="49%" src="./overall.svg" />
+</a>
+<a href="https://github.com/grm34">
+  <img align="center" width="49%" src="./achievements.svg" />
 </a>
