@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="112" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="128" class="">
     <defs>
         <style/>
     </defs>
@@ -27,7 +27,7 @@
                                         <span>created Jun 09 2021</span>
                                     </div>
                                 </div>
-                                <div class="field description">Android Kernel Builder 📲</div>
+                                <div class="field description">📲 Android Kernel Builder | On stand-by, also take look at https://github.com/cyberknight777/YAKB</div>
                                 <div class="field infos">
                                     <div class="language">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
